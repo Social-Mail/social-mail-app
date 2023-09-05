@@ -1,0 +1,19 @@
+{
+  "name": "@social-mail/desktop-app",
+  "version": "1.0.0",
+  "description": "Desktop App is build on top of ElectronJS.",
+  "main": "main.js",
+  "type": "module",
+  "repository": {
+    "url": "https://github.com/Social-Mail/social-mail-app"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "Akash Kava",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^26.1.0"
+  }
+}
