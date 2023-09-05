@@ -1,6 +1,6 @@
 {
   "name": "@social-mail/social-mail-desktop-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Desktop App is build on top of ElectronJS.",
   "main": "main.js",
   "repository": {
