@@ -1,1 +1,1 @@
-import "./dist/main/MainApp";
+require("./dist/main/MainApp");

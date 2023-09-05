@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'"> -->
+    <title>Social Mail App</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .form {
+            width: 100%;
+        }
+        .form > div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-items: center;
+            gap: 5px;
+        }
+        #host {
+            min-width: 700px;
+        }
+    </style>
+  </head>
+  <body>
+    <script>
+
+        function openDefaultHost() {
+            const host = localStorage.getItem("host");
+            if (host) {
+                window.SocialBridge.openHost(host);
+            }
+        }
+
+        function save() {
+            const host = document.getElementById("host").value;
+            localStorage.setItem("host", host);
+            openDefaultHost();
+        }
+
+        openDefaultHost();
+    </script>
+    <div class="form">
+        <div>
+            <div>
+                <h5>Host (including https://)</h5>
+            </div>
+            <div>
+                <input id="host"/>
+            </div>
+            <div>
+                <button onclick="save()">Go</button>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>

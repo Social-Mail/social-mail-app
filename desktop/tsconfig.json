@@ -2,7 +2,7 @@
     "compilerOptions": {
         "jsx": "react",
         "target": "ESNext",
-        "module":"NodeNext",
+        "module":"CommonJS",
         "incremental": true,
         "sourceMap": true,
         "declaration": true,
@@ -14,6 +14,8 @@
         "emitDecoratorMetadata": true,
         "jsxFactory": "XNode.create",
         "lib": [
+            "DOM",
+            "DOM.Iterable",
             "ES2018",
             "ES2021.WeakRef"
         ]
