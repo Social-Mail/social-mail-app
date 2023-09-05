@@ -1,25 +1,11 @@
-# Social Mail App
-Mono repo for all Social Mail Client Apps
+# Desktop App Build
 
-1. Desktop Apps (Windows/Linux/Mac) with ElectronJS
-2. Mobile Apps (iOS/Android) with Web Atoms Hybrid
+Desktop App is build on top of ElectronJS.
+This app loads default social mail website and provides native API integration for mail protocol.
 
-Both apps load default social mail website and provide native API integration for mail protocol.
-
-# Vision
-
-1. This repo will provide free source code for Social Mail Client with native integration.
-2. This repo will also help you in integrating social mail into your own apps.
+This App provides source code to access Social Mail Server via REST API.
 
 ## Road Map
-
-1. Mobile App
+1. Desktop App
 2. Mail Protocol Interception
-3. Desktop App
-4. Mail Protocol Interception
-5. Folder Sync for Desktop Apps
-
-# Status
-
-1. Desktop - Alpha Release (The project is under heavy development right now).
-2. Mobile - Alpha Release (The project is under heavy development right now).
+3. Folder Sync for Desktop Apps
