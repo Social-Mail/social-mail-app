@@ -21,7 +21,7 @@ jobs:
       run: tsc
     - name: publish
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
       run: npm run publish
 
   publish_on_mac:
@@ -39,7 +39,7 @@ jobs:
       run: tsc
     - name: publish
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
       run: npm run publish
 
   publish_on_win:
@@ -57,5 +57,5 @@ jobs:
       run: tsc
     - name: publish
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
       run: npm run publish
