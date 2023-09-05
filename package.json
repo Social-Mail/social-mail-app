@@ -40,7 +40,7 @@
           "name": "@electron-forge/publisher-github",
           "config": {
             "repository": {
-              "owner": "social-mail",
+              "owner": "Social-Mail",
               "name": "social-mail-desktop-app"
             }
           }
