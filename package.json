@@ -12,7 +12,7 @@
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
-    "postversion": "git push --follow-tags"
+    "postversion": "git push -f --follow-tags"
   },
   "author": "Akash Kava",
   "license": "ISC",
