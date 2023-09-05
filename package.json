@@ -11,7 +11,8 @@
     "start": "electron-forge start",
     "package": "electron-forge package",
     "make": "electron-forge make",
-    "publish": "electron-forge publish"
+    "publish": "electron-forge publish",
+    "postversion": "git push --follow-tags"
   },
   "author": "Akash Kava",
   "license": "ISC",
