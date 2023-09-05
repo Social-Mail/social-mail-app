@@ -15,6 +15,10 @@ jobs:
         node-version: 14
     - name: install dependencies
       run: npm install
+    - name: install typescript
+      run: npm install -D typescript
+    - name: build
+      run: tsc
     - name: publish
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -29,6 +33,10 @@ jobs:
         node-version: 14
     - name: install dependencies
       run: npm install
+    - name: install typescript
+      run: npm install -D typescript
+    - name: build
+      run: tsc
     - name: publish
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -43,6 +51,10 @@ jobs:
         node-version: 14
     - name: install dependencies
       run: npm install
+    - name: install typescript
+      run: npm install -D typescript
+    - name: build
+      run: tsc
     - name: publish
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
