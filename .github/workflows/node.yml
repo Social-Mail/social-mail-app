@@ -16,7 +16,7 @@ jobs:
     - name: install dependencies
       run: npm install
     - name: install typescript
-      run: npm install -D typescript
+      run: npm install -g typescript
     - name: build
       run: tsc
     - name: publish
@@ -34,7 +34,7 @@ jobs:
     - name: install dependencies
       run: npm install
     - name: install typescript
-      run: npm install -D typescript
+      run: npm install -g typescript
     - name: build
       run: tsc
     - name: publish
@@ -52,7 +52,7 @@ jobs:
     - name: install dependencies
       run: npm install
     - name: install typescript
-      run: npm install -D typescript
+      run: npm install -g typescript
     - name: build
       run: tsc
     - name: publish
